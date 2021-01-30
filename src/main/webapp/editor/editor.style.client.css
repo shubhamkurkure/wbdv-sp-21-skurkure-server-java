@@ -1,0 +1,132 @@
+.wbdv-section {
+    background-color: #4F4F4F;
+    padding: 10px;
+    color: white;
+}
+.wbdv-heading {
+    background-color: #4F4F4F;
+    color: white;
+    padding: 15px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.wbdv-module-pill {
+    background-color: #292929;
+    color: white;
+    margin: 5px;
+}
+
+.wbdv-topic-active {
+    background-color: #292929;
+    color: white;
+    margin-left: 5px;
+}
+
+.wbdv-module-active {
+    background-color: dodgerblue;
+    color: white;
+    margin: 5px;
+}
+.wbdv-topic {
+    background-color: #4F4F4F;
+    color: white;
+    margin-left: 5px;
+}
+
+.wbdv-background-color {
+    background-color: #4F4F4F;
+    height: 100vh;
+}
+
+.wbdv-section-active {
+    background-color: #292929;
+    padding: 10px;
+    color: white;
+}
+
+.wbdv-save-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.wbdv-arrow-button {
+    background-color: #FFC300;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.wbdv-cross-button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.wbdv-plus-button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.wbdv-plus-button-module {
+    background-color: #4F4F4F;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.wbdv-box-input-row {
+    padding: 8px 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.wbdv-box-row-padding {
+    padding: 10px;
+}
+
+.wbdv-topic-padding {
+    padding-left: 10px;
+}
+
+.wbdv-box-border {
+    border-style: ridge;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
