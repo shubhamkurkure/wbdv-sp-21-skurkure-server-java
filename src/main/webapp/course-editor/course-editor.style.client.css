@@ -17,12 +17,6 @@
     margin: 5px;
 }
 
-.wbdv-topic-active {
-    background-color: #292929;
-    color: white;
-    margin-left: 5px;
-}
-
 .wbdv-module-active {
     background-color: dodgerblue;
     color: white;
@@ -31,7 +25,15 @@
 .wbdv-topic {
     background-color: #4F4F4F;
     color: white;
-    margin-left: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.wbdv-topic-active {
+    background-color: #292929;
+    color: white;
+    margin: 5px;
+    padding: 10px;
 }
 
 .wbdv-background-color {
