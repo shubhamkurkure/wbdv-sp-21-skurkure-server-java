@@ -3,11 +3,8 @@ let $passwordFld;
 let $firstNameFld;
 let $lastNameFld;
 let $roleFld;
-let $removeBtn;
-let $editBtn;
 let $createBtn;
 let $tableRows;
-let $tbody;
 let $updateBtn
 
 let userService = new AdminUserServiceClient();
