@@ -28,6 +28,11 @@ function createUser() {
             users.push(actualUser)
             renderUsers(users)
         })
+    $usernameFld.val("");
+    $passwordFld.val("");
+    $firstNameFld.val("");
+    $lastNameFld.val("");
+    $roleFld.val("");
 }
 
 function deleteUser(event) {
@@ -46,7 +51,7 @@ function renderUsers(users) {
     for (let i = 0; i < users.length; i++) {
         let user = users[i]
         $tableRows
-            .prepend(`
+            .append(`
       <tr>
           <td> <div class="wbdv-input-box"> ${user.userName} </div></td>
           <td> <div class="wbdv-input-box"> ${user.password} </div></td>
