@@ -51,7 +51,7 @@ function renderUsers(users) {
             .append(`
       <tr>
           <td> <div class="wbdv-input-box"> ${user.userName} </div></td>
-          <td> <div class="wbdv-input-box"> ${user.password} </div></td>
+          <td></td>
           <td> <div class="wbdv-input-box"> ${user.firstName} </div></td>
           <td> <div class="wbdv-input-box"> ${user.lastName} </div></td>
           <td> <div class="wbdv-input-box"> ${user.role} </div></td>
@@ -60,7 +60,8 @@ function renderUsers(users) {
           <div class="wbdv-input-box">
           <h4>
           <i id="${i}" class="fas fa-times wbdv-delete-btn"></i>
-          &nbsp; &nbsp; <i id="${user._id}" class="fas fa-edit wbdv-select-btn"></i>
+          &nbsp; &nbsp; 
+          <i id="${user._id}" class="fas fa-edit wbdv-select-btn"></i>
           </h4>
           </div>
           </td>
@@ -105,7 +106,7 @@ function updateUser() {
 }
 
 function findUserById(userId) {
-    userService.findUserById(userId).then()
+    userService.findUserById(userId).then(response => response.json());
 }
 
 function main() {
