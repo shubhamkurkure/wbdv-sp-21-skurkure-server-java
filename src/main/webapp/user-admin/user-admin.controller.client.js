@@ -51,7 +51,7 @@ function renderUsers(users) {
             .append(`
       <tr>
           <td> <div class="wbdv-input-box"> ${user.userName} </div></td>
-          <td></td>
+          
           <td> <div class="wbdv-input-box"> ${user.firstName} </div></td>
           <td> <div class="wbdv-input-box"> ${user.lastName} </div></td>
           <td> <div class="wbdv-input-box"> ${user.role} </div></td>
