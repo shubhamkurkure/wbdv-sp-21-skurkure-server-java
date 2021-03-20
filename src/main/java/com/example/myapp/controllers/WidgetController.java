@@ -2,7 +2,6 @@ package com.example.myapp.controllers;
 
 import com.example.myapp.models.Widget;
 import com.example.myapp.services.WidgetService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;

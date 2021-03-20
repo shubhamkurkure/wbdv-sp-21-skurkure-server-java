@@ -15,6 +15,9 @@ public class Widget {
   private String style;
   private String value;
 
+  public Widget() {
+  }
+
   public Widget(Long id, String topicId, String type, Integer size, String text) {
     this.id = id;
     this.topicId = topicId;
@@ -143,5 +146,4 @@ public class Widget {
   public void setText(String text) {
     this.text = text;
   }
-
 }
