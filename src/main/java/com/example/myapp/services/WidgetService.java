@@ -10,6 +10,7 @@ import java.util.List;
 
 @Service
 public class WidgetService {
+
   private List<Widget> widgets = new ArrayList<Widget>();
   {
 
